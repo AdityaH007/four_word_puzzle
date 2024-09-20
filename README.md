@@ -57,7 +57,7 @@ Alternatively, you can use [Gitpod](https://gitpod.io/) to run this project in a
 2. Gitpod will create a cloud environment where you can run the game in a terminal.
 
 ## Example Gameplay
-
+![image](https://github.com/user-attachments/assets/403c64ac-6ba5-4e70-9ada-5cf1dd5f49f7)
 ```bash
 Puzzle Game: Arrange the sequence correctly!
 Available names: Dog Snake Whale Eagle
@@ -69,4 +69,4 @@ Current sequence: Snake Whale Dog Eagle
 Congratulations! You have arranged the sequence correctly!
 
 
-![image](https://github.com/user-attachments/assets/403c64ac-6ba5-4e70-9ada-5cf1dd5f49f7)
+
