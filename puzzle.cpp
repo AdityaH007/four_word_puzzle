@@ -1,4 +1,5 @@
 #include <iostream>
+#include <utility>
 #include <vector>
 #include <string>
 #include <algorithm> 
@@ -78,9 +79,12 @@ int main() {
             
             swap(playerSequence[i], playerSequence[choice - 1]);
 
-            cout << "Current sequence: ";
-            displaySequence(playerSequence);
+           // cout << "Current sequenence";
+        
         }
+
+        displaySequence(playerSequence);
+        
 
         
         int correctCount = countCorrectPositions(correctSequence, playerSequence);
@@ -90,7 +94,13 @@ int main() {
             cout << "Congratulations! You have arranged the sequence correctly!" << endl;
         } else {
             cout << correctCount << " out of 4 names are in the correct position." << endl;
+    
+            
+
+
+
             cout << "Try again!\n";
+            
         }
     }
 
